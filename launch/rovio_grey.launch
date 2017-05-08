@@ -8,5 +8,5 @@
   	<param name="framerate" value="30" />
   	<param name="io_method" value="mmap"/>
   </node>
-  <node name="image_proc" pkg="image_proc" type="image_proc" ns="usb_cam"/>
+  <node name="image_proc" pkg="image_proc" type="image_proc" ns="cam0"/>
 </launch>
