@@ -1009,7 +1009,7 @@ void UsbCam::start(const std::string& dev, io_method io_method,
   camera_dev_ = dev;
 
   io_ = io_method;
-  monochrome_ = false;
+  monochrome_ = true;
   if (pixel_format == PIXEL_FORMAT_YUYV)
     pixelformat_ = V4L2_PIX_FMT_YUYV;
   else if (pixel_format == PIXEL_FORMAT_UYVY)
